@@ -17,7 +17,7 @@ if (Platform.OS === 'ios') {
 
 // Could be nav bar height?
 // Magic number but is necessary to work properly
-const IOS_OFFSET = 44;
+const IOS_OFFSET = 0;
 
 const getVerticalOffset = () => Platform.select({
   ios: statusBarHeight + IOS_OFFSET,
